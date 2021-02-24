@@ -1,12 +1,12 @@
-def rhombus(n):
-    for i in range(n):
-        offset = (n - i - 1) * ' '
-        content = "* " * (i + 1)
-        print(f"{offset}{content}")
-    for i in range(n - 2, -1, -1):
-        offset = (n - i - 1) * ' '
-        content = "* " * (i + 1)
-        print(f"{offset}{content}")
+class Book:
+    def __init__(self, name: str, author: str, pages: int):
+        self.name = name
+        self.author = author
+        self.pages = pages
 
 
-rhombus(3)
+
+book = Book("My Book", "Me", 200)
+print(book.name)
+print(book.author)
+print(book.pages)

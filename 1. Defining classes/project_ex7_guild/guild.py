@@ -1,4 +1,4 @@
-from project.player import Player
+from project_ex7_guild.player import Player
 
 
 class Guild:

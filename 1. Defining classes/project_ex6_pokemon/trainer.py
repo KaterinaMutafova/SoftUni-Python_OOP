@@ -1,4 +1,4 @@
-from project.pokemon import Pokemon
+from project_ex6_pokemon.pokemon import Pokemon
 
 class Trainer:
     def __init__(self, name: str, pokemon=[]):

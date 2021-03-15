@@ -13,5 +13,3 @@ class Animal(ABC):
     def make_sound(self):
         pass
 
-
-# name, an age and a gender. It should have 2 methods: repr() and make_sound().
